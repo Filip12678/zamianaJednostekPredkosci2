@@ -1,0 +1,87 @@
+﻿<html>
+<head>
+<title>Strona do przeliczania jednostek prękości</title>
+</head>
+<body>
+
+
+Wprowadź wartość do przekonwertowania: <input type="number" id="wartosc"/>
+
+<br><br>
+
+Przelicz: 
+
+
+<select id="jednostkaWejsciowa">
+<option value="as">mm/s</option>
+<option value="am">mm/min</option>
+<option value="ah">mm/h</option>
+
+<option value="bs">cm/s</option>
+<option value="bm">cm/min</option>
+<option value="bh">cm/h</option>
+
+<option value="cs">dm/s</option>
+<option value="cm">dm/min</option>
+<option value="ch">dm/h</option>
+
+<option value="ds">m/s</option>
+<option value="dm">m/min</option>
+<option value="dh">m/h</option>
+
+<option value="es">km/s</option>
+<option value="em">km/min</option>
+<option value="eh">km/h</option>
+
+<option value="fs">mi/s</option>
+<option value="fm">mi/min</option>
+<option value="fh">mi/h</option>
+
+<option value="gs">mila morska/s</option>
+<option value="gm">mila morska/min</option>
+<option value="gh">mila morska/h (węzeł)</option>
+</select>
+
+
+ na: 
+
+
+
+<select id="jednostkaWyjsciowa">
+<option value="as">mm/s</option>
+<option value="am">mm/min</option>
+<option value="ah">mm/h</option>
+
+<option value="bs">cm/s</option>
+<option value="bm">cm/min</option>
+<option value="bh">cm/h</option>
+
+<option value="cs">dm/s</option>
+<option value="cm">dm/min</option>
+<option value="ch">dm/h</option>
+
+<option value="ds">m/s</option>
+<option value="dm">m/min</option>
+<option value="dh">m/h</option>
+
+<option value="es">km/s</option>
+<option value="em">km/min</option>
+<option value="eh">km/h</option>
+
+<option value="fs">mi/s</option>
+<option value="fm">mi/min</option>
+<option value="fh">mi/h</option>
+
+<option value="gs">mila morska/s</option>
+<option value="gm">mila morska/min</option>
+<option value="gh">mila morska/h (węzeł)</option>
+</select>
+
+
+<script src="skrypt.js"></script>
+<button onclick="myFunction()">Przelicz jednostki</button>
+
+<h3><div id="wynik"></div></h3>
+
+</body>
+</html>
